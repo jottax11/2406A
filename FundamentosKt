@@ -33,6 +33,83 @@ fun main() {
     // - sem limite de caracteres ex.: "João Geromel Cadeira's"
     // 
     // Char - apenas 1 digito de caractere... dentro de ASPAS SIMPLES Ex: 'J'
+    //********************************************************************************************************************
+    fun main() {
+    // Condições  if..else
+    
+    // se... senão  
+    // 
+    // estrutura: 
+    // 
+    // if..else simples
+    // 
+    // if(condição){
+    // ação
+    // }else{
+    // ação
+    // }
+    /*
+    var interruptor = false
+    
+    if(interruptor == true){
+        println("Luz acesa")
+    }else{
+        println("Luz apagada")
+    }
+    */
+    /*var fome = true 
+    
+    if(fome){
+        println("Alimente-se!")
+    }else{
+        println("Alimentou-se")
+    }*/
+    
+    
+    var senha = "333a"
+    
+    if(senha=="azeitona"){
+        println("Bem-Vindo Sr Stark")
+    }else{
+        println("Senha Incorreta, Tente Novamente")
+        
+    
+}
+   
+ // SOCARRAM ME SUBI NO ONIBUS EM MARROCOS 
+ 
+  // if..else composto
+ // 
+ // com o if..else composto, somos permitidos,comparar mais de duas condições (o simples e o else),através do 'else if'
+ 
+ 
+ var corações =5
+ if(corações>=5){
+     println("Voce está muito saudavel! Parabens")
+ }else if(coracoes ==4){
+     println("Voce ta de boa")
+ }else if (coracoes ==3){
+     println("Cuidado com a suaa saude,durma melhor")
+ }else if(coracoes ==2){
+     println("Vá se tratar, Voce nao esta bem...")
+ }else if(coracoes ==1){
+     println("Estado Critico"){
+ }else{
+         println("Novo reforço do Vasco")
+ }    
+ 
+  
+ 
+ var senha ="Copa Do Brasil"
+   if(senha=="Tricolor Paulista"){
+       println("Bem Vindo, Torcedor Tricolor")
+   }else{
+       println("Senha Incorreta, Torcedor Modinha")
+    var coraçoes=5
+       
+     if(corações>=5){
+      
+ 
     // Int - números inteiros Ex: 100
     // Double - números decimais, com um limite de até 7 digitos após a vírgula - 
     // arredonda o número Ex.: 22.5
@@ -275,3 +352,4 @@ fun main() {
     
 }
 //-----------------------------------------------------------------
+//
