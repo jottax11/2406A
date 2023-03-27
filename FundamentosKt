@@ -1,5 +1,277 @@
-
 fun main() {
-    println("Salve,Quebrada")
+    println("Tartaruga ☺")
 }
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//----------------------------------------------------------
+fun main() {
+    println("tava 11x3...") //exibir mensagens no console
+    
+    //comentário de uma linha
+    
+    /*
+     * 
+     * ele
+     * é 
+     * um
+     * comentário 
+     * de
+     * mais 
+     * de
+     * uma
+     * linha
+     * 
+     */
+    
+    //Variáveis - elas armazenam valores
+    
+    //variáveis mutáveis - seu valor pode ser alterado -------------- var
+    //variáveis não mutáveis - seu valor NÃO pode ser alterado ------ val 
+    //
+    // Tipos de Variáveis
+    //
+    // Boolean - verdadeiro ou falso Ex.: true e false
+    // String - Caracteres no geral ... entre ASPAS DUPLAS 
+    // - sem limite de caracteres ex.: "João Geromel Cadeira's"
+    // 
+    // Char - apenas 1 digito de caractere... dentro de ASPAS SIMPLES Ex: 'J'
+    // Int - números inteiros Ex: 100
+    // Double - números decimais, com um limite de até 7 digitos após a vírgula - 
+    // arredonda o número Ex.: 22.5
+    // 
+    // Float - números decimais, com um limite de até 14 digitos após a vírgula -
+    // arredonda o número Ex.: 22.5f
+    //
+    // Long - números longos com muitos digitos inteiro, ou decimal Ex.: 8000000000000000000000
+    //
+    // Estrutura de uma variável: 
+    // 
+    // var nome = valor 
+    //       ou
+    // var nome: Tipo
+    // 
+    var professoresDeGeografia = "Glória"
+    var professorr: String
+ 
+    
+}
+//---------------------------------------------------------------------------
+fun main() {
+     // Concatenação
+     // 
+     // 
+     /*
+     var tartaruga = "Michael Havckson"
+    
+    println("O nome da tartaruga do Kilyan Mbappé é $tartaruga")
+    println("O nome da tartaruga do Kilyan Mbappé é " + tartaruga) 
+    
+    var leclerc = 2 
+    var alonso = 1
+    
+    println(" A posição do Lek Lek + a posição do Alonso são ${(leclerc + alonso)}")
+    println(" A posição do Lek Lek + a posição do Alonso são " + (leclerc + alonso))
+    
+    
+    var nome = "Eduardo" 
+    var idade = 19 
+    var cidade = "São Paulo" 
+    
+    println("O meu nome é $nome, eu tenho $idade anos e moro em $cidade")
+    */
+    
+    // Exercício - ◘ Faça um diálogo de no mínimo 15 linhas, nele deve conter,
+    // os nomes de quem estiver falando de forma concatenada usando variáveis 
+    // ◘ Usem a criatividade ☺
+    // 
+    // 
+    
+    
+}
+//-------------------------------------------------------------------------------------------
+fun main() {
+    
+    // Exercício - ◘ Faça um diálogo de no mínimo 15 linhas, nele deve conter,
+    // os nomes de quem estiver falando de forma concatenada usando variáveis 
+    // ◘ Usem a criatividade ☺
+    // 
+    // 
+    
+    
+    
+}
+//************************************************************************************************
+fun main() {
+    
+    //Operadores Matemáticos  
+    
+    //  + -> adição 
+    //  - -> subtração 
+    //  / -> divisão 
+    //  * -> multiplicação 
+    //  % -> módulo - resto da divisão
+    //  
+    /*
+    var halls = 6
+    var freegells = 6
+    
+    println(halls % freegells) 
+    */
+    
+    // EXERCÍCIO - Faça uma calculadora que contenha cada um dos operadores matemáticos 
+    // como resultado do cálculo de duas variáveis (contendo resultado para +, -, /, *, e %),
+    // contendo também uma interface simples e bem bonita :)
+    // 
+    var n1 = 7
+    var n2 = 3
+    
+    println("||************ Minha Calculadora yee ☺ ***********||")
+    println("||************************************************||")
+    println("||********_______******************_______********||")
+    println("||************************************************||")
+    println("||********       ******************       ********||")
+    println("||********       ******************       ********||")
+    println("||************************************************||")
+    println("||*********************  *************************||")
+    println("||*********************  *************************||")
+    println("||************************************************||")
+    println("||************************************************||")
+    println("||***   ************************************   ***||")
+    println("||***                                          ***||")
+    println("||************************************************||")
+    println("||************************************************||")
+    println("||***************** Bem Vindos ☺ *****************||")
+    println("||** Soma entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 + n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Subtração entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 - n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Multiplicação entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 * n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Divisão entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 / n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Módulo entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 % n2)+"*********************************||")
+    println("||************************************************||")
+}
+//----------------------------------------------------------------------------------------
+fun main() {
+    
+    
+    // EXERCÍCIO - Faça uma calculadora que contenha cada um dos operadores matemáticos 
+    // como resultado do cálculo de duas variáveis (contendo resultado para +, -, /, *, e %),
+    // contendo também uma interface simples e bem bonita :)
+    // 
+    /*
+    var n1 = 7
+    var n2 = 3
+    
+    println("||************ Minha Calculadora yee ☺ ***********||")
+    println("||************************************************||")
+    println("||********_______******************_______********||")
+    println("||************************************************||")
+    println("||********       ******************       ********||")
+    println("||********       ******************       ********||")
+    println("||************************************************||")
+    println("||*********************  *************************||")
+    println("||*********************  *************************||")
+    println("||************************************************||")
+    println("||************************************************||")
+    println("||***   ************************************   ***||")
+    println("||***                                          ***||")
+    println("||************************************************||")
+    println("||************************************************||")
+    println("||***************** Bem Vindos ☺ *****************||")
+    println("||** Soma entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 + n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Subtração entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 - n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Multiplicação entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 * n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Divisão entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 / n2)+"*********************************||")
+    println("||************************************************||")
+    println("||** Módulo entre $n1 e $n2: ***************************||")
+    println("||** Resultado: "+(n1 % n2)+"*********************************||")
+    println("||************************************************||") 
+    */
+    
+    // Operadores Relacionais 
+    // 
+    // ==  ->  igual a...
+    // !=  ->  diferente de... 
+    // !   ->  negando valor
+    // >   ->  maior que... 
+    // <   ->  menor que... 
+    // >=  ->  maior ou igual a...
+    // <=  ->  menor ou igual a...  
+    // 
+    // 
+    // ++  ->  adiciona 1 a um valor 
+    // --  ->  subtrai 1 de um valor
+    // +=  ->  adiciona um determinado valor a um valor 
+    // -=  ->  subtrai um determinado valor de um valor 
+    /*
+    var clauldetty = 50
+    var josias = 30 
+    var berennice = 90  
+    var bernnadetthy = 80
+    
+    println(clauldetty)
+    clauldetty++
+    println(clauldetty)
+    println("")
+    println(josias)
+    josias--
+    println(josias)
+    println("")
+    println(berennice)
+    berennice += clauldetty
+    println(berennice)
+    println("")
+    println(bernnadetthy)
+    bernnadetthy -= josias
+    println(bernnadetthy)
+    */
+    
+    // Condições  if..else
+    
+    // se... senão  
+    // 
+    // estrutura: 
+    // 
+    // if..else simples
+    // 
+    // if(condição){
+    // ação
+    // }else{
+    // ação
+    // }
+    /*
+    var interruptor = false
+    
+    if(interruptor == true){
+        println("Luz acesa")
+    }else{
+        println("Luz apagada")
+    }
+    */
+    var fome = true 
+    
+    if(fome){
+        println("Alimente-se!")
+    }else{
+        println("Alimentou-se")
+    }
+    
+    
+    
+    
+    
+    
+}
+//-----------------------------------------------------------------
