@@ -152,4 +152,39 @@ if(kroos > 0){
 
 
 
-////////////////////////////////////////////////////////////////////////////////////////    
+//////////////////////////////////////////////////////////////////////////////////////// 
+
+// Na pratica Operadores Logicos
+    // 
+    // Minha mae pediu para eu ir na loja de talheres e ela falou:
+    // traga uma concha de feijao , se tiver garfo, faca e colher
+    /*
+    var garfo=false 
+    var faca=true
+    var colher=true
+    //println(garfo && faca)
+    println(garfo && (faca|| colher))
+    */ 
+    
+    // Show do Pericles
+    // pro cidadao meno de 18 entrar, ele precisa ter pelo menos 12 anos OU
+    // estar acompanhado dos pai
+    // 
+    var idade = 15 
+    var comPais= false
+    var comIdentidade = true
+    
+    if(idade < 18){
+    
+        if((idade >= 12 && comIdentidade == true) || comPais == true){
+              println("Aproveitem o show.. Pivete!!")
+        }else{
+            println("Tu nao pode entrar")   
+        }  
+    }else{
+        println("Aproveite o show!!")   
+    }    
+}
+    
+    
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
