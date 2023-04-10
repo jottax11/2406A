@@ -188,3 +188,40 @@ if(kroos > 0){
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    
+     var mes = 5  
+
+/*
+    when(mes){
+        1 -> {println("Lisboa")}
+        2 -> {println("Nova York")}
+        3 -> {println("Rio de Janeiro")}
+        4 -> {println("São Paulo")}
+        5 -> {println("Keylandia")} 
+        6 -> {println("Miwaukee")}
+        7 -> {println("Barcelona")} 
+        8 -> {println("Springfield")}
+        9 -> {println("Los Pollos Hermanos")}
+        10 -> {println("Elmore")}
+        11 -> {println("Toronto")}
+        12 -> {println("Seoul")}
+        else -> {println("Acordou")}
+      */  
+       
+        var diaSemana = "Terça-feira"
+    
+        when(diaSemana){
+            "Segunda-feira",
+            "Terça-feira",
+            "Quarta-feira",
+            "Quinta-feira",
+            'Sexta-feira'-> {println("Dia útil, seja produtivo")}
+            
+            else -> {println("final de semana!!")}
+    
+        
+        
+        }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
