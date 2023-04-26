@@ -894,3 +894,21 @@ fun main() {
 
 
 //=========================================================================================================================================================
+
+//POO
+    //
+    // Programação Orientada a Objetos
+    // 
+    // Objetivo: Simular atividades e situações do mundo real
+    // 
+    // Objeto - elementos que podem interagir com um sistema  Ex: Pé
+    // 
+    // Classe - Denominação de um determinado objeto    Ex: membros do corpo
+    // 
+    // Atributos - Caracteristicas, propriedades, parâmetros  Ex: Tamanho
+    // 
+    // Métodos - Atividades, ações, que o obj pode realizar   Ex: Chutar
+    // 
+    // Heranças - atributos de objetos que sao HERDADOS de uma classe
+    
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
