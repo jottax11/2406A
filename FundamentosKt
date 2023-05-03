@@ -895,20 +895,107 @@ fun main() {
 
 //=========================================================================================================================================================
 
-//POO
-    //
-    // Programação Orientada a Objetos
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main() {
+    // Exercício -> A cada mês do ano, em uma turma de 5 alunos, entra um aluno novo
+    // .crie a lista inicial de alunos da turma
+    // .a cada mes adicione um novo aluno (em linhas diferentes)
+    // .e 2 meses do ano, 2 alunos foram transferidos 
+    // da turma (dica: em meses diferentes)
+    // .e em 2 meses do ano, 2 alunos foram substituidos por 
+    // outros dois alunos(dica: em meses diferentes)
     // 
-    // Objetivo: Simular atividades e situações do mundo real
+    // Exiba a lista de alunos respectiva de cada mes do ano
+    // dica(interpretação de texto)
     // 
-    // Objeto - elementos que podem interagir com um sistema  Ex: Pé
-    // 
-    // Classe - Denominação de um determinado objeto    Ex: membros do corpo
-    // 
-    // Atributos - Caracteristicas, propriedades, parâmetros  Ex: Tamanho
-    // 
-    // Métodos - Atividades, ações, que o obj pode realizar   Ex: Chutar
-    // 
-    // Heranças - atributos de objetos que sao HERDADOS de uma classe
+    /*
     
-    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    var turma = mutableListOf<String>("Xireia", "Cleiton", "Wasgner", "Rolaidson",
+                                      "Antetokounmpo") 
+
+    println("Turma Incicial")
+    println(turma)
+    
+    println("Janeiro")
+    turma.add("Jubiscleudo")
+    println(turma) 
+    
+    println("Fevereiro")
+    turma.add("Whinderson")
+    turma.remove("Cleiton")
+    println(turma)
+    
+    println("Março")
+    turma.add("Manuel")
+    println(turma)
+    
+    println("Abril")
+    turma.add("Luciano")
+    println(turma)
+    
+    println("Maio")
+    turma.add("Roni")
+    turma.set(6, "Richarlisson")
+    println(turma)
+    
+    println("Junho")
+    turma.add("Ribamar")
+    println(turma)
+    
+    println("Julho")
+    turma.add("Jorel")
+    println(turma)
+    
+    println("Agosto")
+    turma.add("Romário")
+    println(turma)
+    
+    println("Setembro")
+    turma.add("Hebert")
+    println(turma)
+    
+    println("Outubro")
+    turma.add("Hustavo")
+    turma.set(11, "Bauermmann")
+    println(turma)
+    
+    println("Novembro")
+    turma.add("Edmundo")
+    println(turma)
+    
+    println("Dezembro")
+    turma.add("Garfield")
+    turma.remove("Roni")
+    println(turma)
+        
+*/  
+    
+    //POO 
+    //
+    // Programação Orientada a Objetos 
+    // 
+    // Objetivo: Simular atividades e situações do mundo real 
+    // 
+    // Objeto - elementos que podem interagir com um sistema   Ex.: Pé
+    // 
+    // Classe - Denominação de um determinado objeto       Ex.: Membros do Corpo
+    // 
+    // Atributos - características, propriedades, parâmetros    Ex.: Tamanho
+    // 
+    // Métodos - Atividades, ações, que o obj pode realizar     Ex.: Chutar 
+    // 
+    // 
+    // Herança - atributos de um obj que são HERDADOS de uma classe
+    
+    
+    
+    
+    
+    
+    
+}
+
+//**********************************************************************************************************************************************************
