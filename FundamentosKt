@@ -999,3 +999,47 @@ fun main() {
 }
 
 //**********************************************************************************************************************************************************
+
+/*  
+   var pessoa1 = Pessoa() //instanciamos um obj
+   
+  println(pessoa1.peso) //Exibir um atributo de um obj
+  println(pessoa1.nome)  
+  pessoa1.nome = "Luciano Neves"  //alterar um valor de um atributo de um obj
+  println(pessoa1.nome)
+  
+ 
+  
+  
+}
+
+class Pessoa {
+ //Atribustos que toda pessoa pode ter   
+ var nome = ""
+ var idade = 0 
+ var altura = 0.0 
+ var peso = 70.27 
+ var profissao = ""
+*/    
+  
+ var pessoa2 = Pessoa()
+ 
+ println(pessoa2.peso)
+ println(pessoa2.nome)
+ pessoa2.nome = "Allana"   
+ println(pessoa2.nome) 
+ println(pessoa2.nome +", "+ pessoa2.idade)   
+    
+}
+  
+    
+    
+  class Pessoa {
+     
+  var nome = ""
+  var idade = 15 
+  var altura = 1.70 
+  var peso = 69.50 
+  var  profissao = ""
+    
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
