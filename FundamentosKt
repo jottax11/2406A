@@ -1073,3 +1073,38 @@ class Pessoa {
     var profissao = ""
     
 }
+
+fun main() {
+    var animalzin = Animal("cachorro", "Pitbull",8,"Carne","pqno")
+    
+  
+  animalzin.comer("Carne")
+  
+  var animalzao = Animal("Golfiho", "Boto", 50, "Sardinha", "pqno")
+  
+  anmalzao.correr(120.0)
+}
+    
+class Animal(var especie: String, //atributos que todo animalzin deve ter
+             var raca: String,
+             var idade: Int,
+             var dieta: String,
+             var porte: String){ 
+    
+    
+    
+    
+
+    
+ fun comer(alimento: String){ 
+     println("$especie comendo $alimento, yumm")
+    
+ fun correr(velocidade: Double, lugar: String){
+     println("$especie correndo em uma velocidade de $velocidade km/h no $lugar")
+     
+     
+    
+}
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
